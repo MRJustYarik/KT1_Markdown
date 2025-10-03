@@ -1,0 +1,14 @@
+git clone [ссылка-на-репозиторий]
+cd [папка-проекта]
+git checkout -b [название-ветки]
+git add .
+git commit -m "Описание изменений"
+git checkout [название-ветки]
+git checkout -- [имя-файла]
+git add .
+git commit -m "Описание изменений"
+git push origin [название-ветки]
+git reset [файл] (Отменить добавление файлов)
+git reset --soft HEAD~1 (сохранить изменения)
+git reset --hard HEAD~1 (удалить изменения)
+  
